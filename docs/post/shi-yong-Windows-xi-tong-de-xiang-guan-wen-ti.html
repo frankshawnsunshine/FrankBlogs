@@ -99,13 +99,13 @@ d. 然后在C盘右键选中扩展卷。<br>
 e. 在选中空间量的位置输入需要扩容的空间大小，点击下一页直到完成。<br>
 注意，这种方法要求<strong>未分配空间必须在 C 盘相邻的位置（右侧）</strong>，要是 C 盘和未分配空间中间隔了其他分区，就没办法用这个方法直接扩展 C 盘了 。</li>
 </ol></div>
-<div style="font-size:small;margin-top:8px;float:right;"></div>
+<div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
 
 </div>
-    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://frankshawnsunshine.github.io/FrankBlogs">Blog Title</a></div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://frankshawnsunshine.github.io/FrankBlogs">Frank's Blogs</a></div>
 <div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
@@ -114,8 +114,8 @@ e. 在选中空间量的位置输入需要扩容的空间大小，点击下一�
 var now=new Date();
 document.getElementById("copyrightYear").innerHTML=now.getFullYear();
 
-if(""!=""){
-    var startSite=new Date("");
+if("04/29/2025"!=""){
+    var startSite=new Date("04/29/2025");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
     document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
@@ -199,6 +199,6 @@ function iFrameLoading(){
 
 
 </script>
-
+<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>
 
 </html>
